@@ -75,7 +75,6 @@ export default function Admin() {
               </Button>
             </form>
             <p className="text-xs text-muted-foreground mt-4 text-center">
-              Password: soulmatch2024
             </p>
           </CardContent>
         </Card>

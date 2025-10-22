@@ -8,6 +8,7 @@ const Index = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
+    document.title = "Kasper"; // <--- Set browser tab title here
     checkAuth();
   }, []);
 
@@ -39,13 +40,13 @@ const Index = () => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
-            SoulMatch
+            Kasper
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 max-w-2xl mx-auto leading-relaxed">
             Find your soulmate, one connection at a time.
             <br />
-            No endless swiping. No games. Just genuine connections.
+            No endless swiping. No games. Just genuine matches.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
@@ -99,7 +100,7 @@ const Index = () => {
               </div>
               <h3 className="text-xl font-semibold">100% Free</h3>
               <p className="text-white/80">
-                No hidden costs, no premium features. Completely free forever.
+                No hidden costs, no premium features. Completely free forever. we dont know how we'll make money lol
               </p>
             </div>
           </div>
